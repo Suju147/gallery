@@ -26,6 +26,7 @@ function Choose() {
         <div>
             <input type="file" onChange={changed}/>
             <div>{error && <div>{error}</div>}</div>
+            <img src={file.name}></img>
         
         </div>
             
