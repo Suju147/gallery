@@ -1,0 +1,28 @@
+#main{
+  height:"500px";
+  
+  margin:"40px auto";
+  border: 10px solid black;
+  background-color: aqua;
+  
+  overflow: scroll;
+  
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+
+header {
+  margin:20px;
+  text-align: center;
+  font-size: 30px;
+
+
+}
